@@ -21,6 +21,7 @@ $(call inherit-product-if-exists, vendor/huawei/y560/y560-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_PREBUILT_DPI := hdpi mdpi ldpi
 
 # ANT+
 PRODUCT_PACKAGES += \
