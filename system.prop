@@ -1,6 +1,7 @@
 
 # ART
 dalvik.vm.dex2oat-swap=false
+ro.am.reschedule_service=true
 
 # Audio
 audio.dolby.ds2.enabled=true
