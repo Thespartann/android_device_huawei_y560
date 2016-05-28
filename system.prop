@@ -144,9 +144,6 @@ ro.telephony.default_network=9
 ro.use_data_netmgrd=true
 telephony.lteOnCdmaDevice=0
 
-# Time services
-persist.timed.enable=true
-
 # USB
 persist.sys.usb.config=diag,serial_smd,serial_tty,mass_storage
 ro.sys.usb.default.config=diag,serial_smd,serial_tty,mass_storage
