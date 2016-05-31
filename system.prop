@@ -41,6 +41,9 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=512k
 dalvik.vm.heapmaxfree=8m
 
+# Data properties
+ro.com.android.mobiledata=false
+
 # Display
 debug.composition.type=dyn
 debug.egl.hw=1
