@@ -96,6 +96,9 @@ persist.tuning.qdcm=1
 ro.qcom.screencolor=1
 ro.qualcomm.cabl=0
 
+# Services properties
+config.disable_atlas=true
+
 # Scheduler
 sys.io.scheduler=bfq
 
