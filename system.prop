@@ -32,6 +32,14 @@ persist.camera.longshot.stages=1
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
+# Dalvik properties
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapsize=256m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+
 # Display
 debug.composition.type=dyn
 debug.egl.hw=1
