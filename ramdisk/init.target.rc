@@ -39,10 +39,13 @@ on early-init
 on fs
     wait /dev/block/bootdevice
     mount_all fstab.qcom
-    swapon_all fstab.qcom
 
     mkdir /persist/data 0700 system system
     restorecon_recursive /persist
+
+on property:sys.boot_completed=1
+    # Enable ZRAM on boot_complete
+    swapon_all fstab.qcom
 
 #added by litao begin
     start qcom-serialno-sh
